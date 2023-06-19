@@ -295,11 +295,17 @@ input:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 } */
-.footer {
-}
-.btn-c {
+
+.btn-contact {
   padding: 0.3rem 0.8rem;
 }
+
+.edit-link:link,
+.edit-link:visited {
+  color: #070b11;
+  text-decoration: none;
+}
+
 .footer-incl {
   color: #ff6969 !important;
 }
@@ -310,4 +316,29 @@ input:focus {
   border-bottom: 1px solid #b34a4a;
   max-width: 12rem;
   margin: 0 auto;
+}
+.projects {
+  background-color: transparent !important;
+}
+
+.projects-heading {
+  color: #070b11 !important;
+}
+
+.card-background-color {
+  background-color: #e8bcb9;
+}
+
+.btn-project,
+.btn-project:link,
+.btn-project:visited {
+  color: #f2f2f2;
+  background-color: #2e4f7b !important;
+  border-radius: 0.1rem;
+}
+
+.btn-project:hover,
+.btn-project:active {
+  background-color: #070b11 !important;
+  border-radius: 0.11rem;
 }
