@@ -300,9 +300,20 @@ input:focus {
   padding: 0.3rem 0.8rem;
 }
 
+.btn-contact:hover,
+.btn-contact:active {
+  color: #e6e6e6 !important;
+}
+
 .edit-link:link,
 .edit-link:visited {
   color: #070b11;
+  text-decoration: none;
+}
+
+.edit-link:hover,
+.edit-link:active {
+  color: #e6e6e6 !important;
   text-decoration: none;
 }
 
